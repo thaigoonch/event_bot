@@ -4,7 +4,7 @@ Resources:
   Function: 
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: BIRTHDAYBOT
+      FunctionName: EVENT_BOT
       Handler: app.lambda_handler
       Runtime: python3.9
       Timeout: 30
